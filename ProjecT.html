@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم الذواقة | Al Thawqa Restaurant</title>
+    <link rel="stylesheet" href="stayl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>شعبيات الجود ابو برهومي طبعا </h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" data-i18n="home">الرئيسية</a></li>
+                <li><a href="#" data-i18n="menu">قائمة الطعام</a></li>
+                <li><a href="#" data-i18n="about">عن المطعم</a></li>
+                <li><a href="#" data-i18n="contact">اتصل بنا</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="ar">العربية</button>
+                <button class="lang-btn" data-lang="en">English</button>             
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="heroTitle">أطباقنا الشهية تنتظرك</h1>
+                <p data-i18n="heroText">استمتع بتجربة طعام لا تُنسى في أجواء عائلية دافئة</p>
+                <a href="#" class="btn" data-i18n="reserve">احجز طاولتك</a>
+            </div>
+        </section>
+
+        <section class="special-dishes">
+            <h2 data-i18n="specialDishes">أطباقنا المميزة</h2>
+            <div class="dishes-container">
+                <div class="dish-card">
+                    <img src="images/dish1.jpg" alt="طبق مميز 1">
+                    <h3 data-i18n="dish1Name">كبسة لحم الضأن</h3>
+                    <p data-i18n="dish1Desc">أرز مع لحم ضأن طري مع خلطة من البهارات الخاصة</p>
+                    <span class="price" data-i18n="price">45 ريال</span>
+                </div>
+                <div class="dish-card">
+                    <img src="images/dish2.jpg" alt="طبق مميز 2">
+                    <h3 data-i18n="dish2Name">كبسة ام ابراهيم</h3>
+                    <p data-i18n="dish2Desc">لحم ضأن مع أرز وخبز شرقي وصلصة حارة</p>
+                    <span class="price" data-i18n="price">50 ريال</span>
+                </div>
+                <div class="dish-card">
+                    <img src="images/dish3.jpg" alt="طبق مميز 3">
+                    <h3 data-i18n="dish3Name">شيش طاووق</h3>
+                    <p data-i18n="dish3Desc">دجاج مشوي مع خلطة البهارات والثوم</p>
+                    <span class="price" data-i18n="price">35 ريال</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 data-i18n="testimonials">آراء الزبائن</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p data-i18n="testimonial1">"أفضل مطعم في المدينة! الطعام لذيذ والخدمة ممتازة."</p>
+                    <span>- أحمد س.</span>
+                </div>
+                <div class="testimonial">
+                    <p data-i18n="testimonial2">"الأجواء رائعة والأطباق مميزة، أنصح الجميع بتجربته."</p>
+                    <span>- سارة م.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="contactUs">اتصل بنا</h3>
+                <p data-i18n="address">الرياض، حي العليا، شارع الملك فهد</p>
+                <p data-i18n="phone">الهاتف: 0530012422</p>
+                <p data-i18n="email">البريد: مالكم شغل</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="openingHours">ساعات العمل على حسب مزاج العايلة</h3>
+                <p data-i18n="hours1">الأحد - الخميس: 12 ظهراً - 12 منتصف الليل</p>
+                <p data-i18n="hours2">الجمعة - السبت: 1 ظهراً - 1 صباحاً</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="followUs">تابعنا</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="copyright">&copy; 2023 مطعم الذواقة. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
